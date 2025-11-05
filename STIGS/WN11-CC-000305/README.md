@@ -26,20 +26,15 @@
     PS C:\> .\WN11-CC-000305.ps1 
 #>
 
-#WN11-CC-000360 
-# Registry path for WinRM Client settings via Group Policy
-$regPath = "HKLM:\SOFTWARE\Policies\Microsoft\Windows\WinRM\Client"
-
+# WN11-CC-000305 
 # Ensure the registry key exists
 if (-not (Test-Path $regPath)) {
     New-Item -Path $regPath -Force | Out-Null
     Write-Output "Created registry key: $regPath"
 }
 
-# Set value to disallow Digest authentication
-# 0 = Digest authentication disabled
-Set-ItemProperty -Path $regPath -Name "AllowDigest" -Value 0 -Type DWord
-
-Write-Output "Configured WinRM client to disallow Digest authentication"
+# Set the value to disable indexing of encrypted files
+Set-ItemProperty -Path $regPath -Name "AllowIndexingEncryptedStoresOrItems" -Value 0 -Type DWord
+Write-Output "Configured AllowIndexingEncryptedStoresOrItems = 0 under $regPath (encrypted file indexing disabled)."
 
 ```
