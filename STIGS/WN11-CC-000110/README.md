@@ -1,7 +1,7 @@
 ```powershell
 <#
 .SYNOPSIS
-    This powershell script enables audit process creation which allows the operating system to generate audit events when a process fails to start.
+    Disables printing over HTTP to enforce secure print driver downloads and mitigate exposure to network threats.
 
 .NOTES
     Author          : Dillan Marrero
