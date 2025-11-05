@@ -1,7 +1,7 @@
 ```powershell
 <#
 .SYNOPSIS
-    This powershell script will create the necessary dependencies for powershell transcription and then enable it.
+    Enables PowerShell transcription for all users to record executed commands for auditing and forensic purposes.
 
 .NOTES
     Author          : Dillan Marrero
