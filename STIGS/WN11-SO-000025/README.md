@@ -1,7 +1,7 @@
 ``` powershell
 <#
 .SYNOPSIS
-    This powershell script changes the default guest account name to improve it's protection.
+    Renames the built-in Guest account to reduce the likelihood of unauthorized access via default accounts.
 
 .NOTES
     Author          : Dillan Marrero
