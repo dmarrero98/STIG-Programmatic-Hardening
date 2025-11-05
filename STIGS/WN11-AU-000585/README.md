@@ -21,7 +21,7 @@ This is critical for **forensic investigations**, detecting suspicious activity,
 ```powershell
  <#
 .SYNOPSIS
-    This powershell script enables audit process creation which allows the operating system to generate audit events when a process fails to start.
+    This powershell script ensures that legacy audit policies are not applied so that Advanced Audit Policy settings are enforced for accurate auditing.
 
 .NOTES
     Author          : Dillan Marrero
