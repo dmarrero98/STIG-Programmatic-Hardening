@@ -1,7 +1,7 @@
 ```powershell
 <#
 .SYNOPSIS
-    This script enables a setting which prevents WinRM from digest authentication
+    Disables Digest authentication for the WinRM client to prevent sending credentials in a weakly hashed format.
 
 .NOTES
     Author          : Dillan Marrero
