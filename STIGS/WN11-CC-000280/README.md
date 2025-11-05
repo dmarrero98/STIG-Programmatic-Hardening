@@ -1,7 +1,7 @@
 ```powershell
 <#
 .SYNOPSIS
-    This script enables incoming RDP connections to always prompt for password input
+    Configures Remote Desktop to always prompt users for passwords to strengthen authentication security.
 
 .NOTES
     Author          : Dillan Marrero
