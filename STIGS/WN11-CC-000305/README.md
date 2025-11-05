@@ -26,6 +26,7 @@
     PS C:\> .\WN11-CC-000305.ps1 
 #>
 
+$regPath = "\SOFTWARE\Policies\Microsoft\Windows\Windows Search\"
 # WN11-CC-000305 
 # Ensure the registry key exists
 if (-not (Test-Path $regPath)) {
