@@ -1,7 +1,7 @@
 ``` powershell
 <#
 .SYNOPSIS
-    This script alters a setting which prevents the computer from downloading print driver packages over HTTP.
+    This script prevents Windows from downloading print driver packages over HTTP to reduce the risk of untrusted drivers.
 
 .NOTES
     Author          : Dillan Marrero
