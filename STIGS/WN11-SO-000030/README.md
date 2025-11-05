@@ -23,7 +23,7 @@ This STIG ensures that **advanced audit policy subcategories** override legacy a
 ```powershell
 <#
 .SYNOPSIS
-    This powershell script enables an audit trail of system activity logs which allows administrators to enable more precise auditing capabilites.
+    Enables auditing of process creation failures to track potentially malicious or unauthorized process executions.
 
 .NOTES
     Author          : Dillan Marrero
