@@ -1,7 +1,7 @@
 ```powershell
 <#
 .SYNOPSIS
-    This script enables a setting that prevents encrypted files from being indexed.
+    Disables indexing of encrypted files to prevent potential exposure of sensitive data through search indexes.
 
 .NOTES
     Author          : Dillan Marrero
